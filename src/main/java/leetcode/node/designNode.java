@@ -1,5 +1,7 @@
 package leetcode.node;
 
+import sun.rmi.runtime.Log;
+
 public class designNode {
 
 
@@ -111,6 +113,7 @@ public class designNode {
             }
             pre.next = pre.next.next;
             size--;
+
         }
     }
     //双链表
